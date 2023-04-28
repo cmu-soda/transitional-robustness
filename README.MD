@@ -21,6 +21,8 @@ Once the desktop appears, open the terminal, and change the directory to “tran
 You are now in the project’s root folder.
 No more set up is required; we have already built the tool and packaged it into bin/LTS-Robustness.jar.
 
+OVA image password: robust
+
 ### Local set up from git
 Clone this repository to your local machine.
 No more set up is required; we have already built the tool and packaged it into bin/LTS-Robustness.jar.
