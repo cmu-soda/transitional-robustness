@@ -60,10 +60,13 @@ To run Algorithm 1 with our heuristic ("Wall Heur" in Table 1):
 ```
 ./run_heur.sh
 ```
+This script should run in under a minute.
+
 To run Algorithm 1 without the heuristic ("Wall Plain" in Table 1):
 ```
 ./run_plain.sh
 ```
+This script should run in under an hour.
 
 ### Sample
 Here is a sample for the expected result from running Algorithm 1 with our heuristic:
