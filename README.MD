@@ -16,8 +16,9 @@ This project contains the following folders:
 
 ### Set up from OVA file
 Install VirtualBox.
-You can then open SafeEnvEnvelopes.ova and start a VM.
-Once the VM is started, the desktop will show a terminal whose present working directory is a local copy of this repository.
+Open SafeEnvEnvelopes.ova with VirtualBox.
+Once the desktop appears, open the terminal, and change the directory to “transitional-robustness-main”.
+You are now in the project’s root folder.
 No more set up is required; we have already built the tool and packaged it into bin/LTS-Robustness.jar.
 
 ### Local set up from git
