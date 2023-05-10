@@ -14,14 +14,15 @@ This project contains the following folders:
 
 ## Set Up
 
-### Set up from OVA file
-Install VirtualBox.
-Open SafeEnvEnvelopes.ova with VirtualBox.
-Once the desktop appears, open the terminal, and change the directory to “transitional-robustness-main”.
-You are now in the project’s root folder.
+### Docker set up
+From the root folder of this repository:
+```
+docker build -t trobust .
+docker run --name trobust-c -dit trobust /bin/bash
+docker exec -it trobust-c /bin/bash
+```
+You are now in the project’s root folder inside the Docker container.
 No more set up is required; we have already built the tool and packaged it into bin/LTS-Robustness.jar.
-
-OVA image password: robust
 
 ### Local set up from git
 Clone this repository to your local machine.
