@@ -9,5 +9,3 @@ RUN apt-get install -y default-jre
 RUN mkdir -p home/transitional-robustness/
 COPY . home/transitional-robustness/
 WORKDIR home/transitional-robustness/
-#COPY bin bin
-#COPY benchmarks benchmarks
